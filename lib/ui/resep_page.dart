@@ -22,7 +22,7 @@ class _ResepPageState extends State<ResepPage> {
     return Scaffold(
       drawer: Sidebar(),
       appBar: AppBar(
-        title: const Text("Resep Kue"),
+        title: const Text("List Resep"),
         actions: [
           GestureDetector(
             child: const Icon(Icons.add),

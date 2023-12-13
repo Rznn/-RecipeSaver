@@ -13,8 +13,8 @@ class Sidebar extends StatelessWidget {
         padding: EdgeInsets.zero,
         children: [
           UserAccountsDrawerHeader(
-              accountName: Text("Admin"),
-              accountEmail: Text("admin@admin.com")),
+              accountName: Text("ResepKu"),
+              accountEmail: Text("Pilih Kategori")),
           ListTile(
             leading: Icon(Icons.home),
             title: Text("Beranda"),
@@ -25,7 +25,7 @@ class Sidebar extends StatelessWidget {
           ),
           ListTile(
             leading: Icon(Icons.food_bank_outlined),
-            title: Text("Resep Kue Lebaran"),
+            title: Text("Resep Masakan"),
             onTap: () {
               Navigator.push(context,
                   MaterialPageRoute(builder: (context) => ResepPage()));

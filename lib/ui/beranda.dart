@@ -11,15 +11,15 @@ class Beranda extends StatelessWidget {
       appBar: AppBar(
         title: Row(
           children: [
-            SizedBox(width: 30),
+            SizedBox(width: 55),
             Icon(
               Icons.restaurant_menu,
             ),
             SizedBox(width: 8),
             Text(
-              'Aplikasi Resep Kue',
+              'ResepKu',
               style: TextStyle(
-                fontSize: 20,
+                fontSize: 22,
                 fontWeight: FontWeight.bold,
               ),
             ),
